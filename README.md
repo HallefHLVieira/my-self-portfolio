@@ -50,3 +50,8 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+
+TODO
+
+- Adicionar imagem do projeto(layout)
+- Complementar com sessão de aprendizados
