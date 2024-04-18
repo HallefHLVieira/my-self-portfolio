@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* CONFIG THEMES INIT */
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -23,29 +23,41 @@
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
+/* CONFIG THEMES END */
 
 body {
   /*
+  FORM 1
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   */
-  /* background: color image repeat position/size */
+
+  /* 
+  FORM 2
+  background: color image repeat position/size 
+  */
+
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
 
 body * {
-  font-family: "Inter", sans-serif;
+  /* RESETS DE FONTS */
+  font-family: "Exo 2", sans-serif;
   color: var(--text-color);
+}
+
+body h1 {
+  font-weight: 400;
 }
 
 #container {
   margin: auto;
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 26px auto 0px;
   padding: 0 24px;
 }
 
