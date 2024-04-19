@@ -157,7 +157,7 @@ ul li a:hover {
 }
 
 /* SOCIAL LINKS */
-#social-links {
+#my-skills {
   display: flex;
   justify-content: center;
 
@@ -166,7 +166,8 @@ ul li a:hover {
   font-size: 24px;
 }
 
-#social-links a {
+#my-skills a {
+  font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,7 +176,7 @@ ul li a:hover {
   transition: background 0.2s;
 }
 
-#social-links a:hover {
+#my-skills a:hover {
   background: var(--highlight-color);
 }
 
