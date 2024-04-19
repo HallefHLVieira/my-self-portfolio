@@ -158,6 +158,15 @@ ul li a:hover {
 }
 
 /* ------------------------------ SOCIAL LINKS -------------------------------*/
+.session-title {
+  text-align: center;
+  padding: 24px 24px 0 24px;
+}
+
+.session-title h2 {
+  font-weight: 300;
+}
+
 #my-skills {
   display: flex;
   justify-content: center;
