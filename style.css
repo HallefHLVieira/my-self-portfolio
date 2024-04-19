@@ -40,7 +40,7 @@ body {
   */
 
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 body * {
@@ -53,6 +53,7 @@ body h1 {
   font-weight: 400;
 }
 
+/* ---------------------------- GENERAL CONTAINER --------------------------- */
 #container {
   margin: auto;
   width: 100%;
@@ -61,7 +62,7 @@ body h1 {
   padding: 0 24px;
 }
 
-/* PROFILE SESSION */
+/* ------------------------------ PROFILE AREA -------------------------------*/
 #profile {
   text-align: center;
   padding: 24px;
@@ -81,7 +82,7 @@ para block */
   line-height: 24px;
 }
 
-/* SWITCH THEME */
+/* ------------------------------ TOOGLE AREA --------------------------------*/
 #switch {
   position: relative;
   width: 64px;
@@ -123,7 +124,7 @@ para block */
   border-radius: 9999px;
 }
 
-/* Links */
+/* --------------------------------- LINKS -----------------------------------*/
 ul {
   list-style: none;
   display: flex;
@@ -156,7 +157,7 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
-/* SOCIAL LINKS */
+/* ------------------------------ SOCIAL LINKS -------------------------------*/
 #my-skills {
   display: flex;
   justify-content: center;
@@ -177,14 +178,14 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-/* FOOTER */
+/* ------------------------------ FOOTER AREA ------------------------------- */
 footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
 }
 
-/* media queries */
+/* ------------------------------ MEDIA QUERIES ----------------------------- */
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
@@ -195,7 +196,7 @@ footer {
   }
 }
 
-/* Tooltip container */
+/* ------------------------------ TOOLTIP AREA ------------------------------ */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -212,7 +213,7 @@ footer {
   width: 80px;
   /* Position the tooltip text - see examples below! */
   bottom: -30px;
-  left: -6px;
+  left: -4px;
   position: absolute;
   z-index: 1;
 }
@@ -222,7 +223,7 @@ footer {
   visibility: visible;
 }
 
-/* animation */
+/* ------------------------------ ANIMATION ----------------------------------*/
 @keyframes slide-in {
   from {
     left: 0;
